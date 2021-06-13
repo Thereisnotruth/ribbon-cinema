@@ -1,2 +1,11 @@
-@import './globals';
-@import './Home.module'
+$theme-color: #c68a12;
+$focus-color: #a37312;
+$sub-color: #eba315;
+
+@import './header';
+@import './footer';
+@import './content';
+@import './slider';
+@import './showingmovielist';
+@import './login';
+@import './signup';

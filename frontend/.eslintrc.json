@@ -24,6 +24,17 @@
         "no-use-before-define": "off",
         "@typescript-eslint/no-use-before-define": ["error"],
         "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
-        "react/jsx-props-no-spreading": "off"
-    }
+        "react/jsx-props-no-spreading": "off",
+        "import/prefer-default-export": "off",
+        "import/extensions": "off",
+        "no-tabs": 0,
+        "indent": "off"
+    },
+    "settings": {
+        "import/resolver": {
+          "node": {
+            "extensions": [".js", ".jsx", ".ts", ".tsx"]
+          }
+        }
+    }  
 }
